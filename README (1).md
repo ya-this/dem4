@@ -84,7 +84,7 @@
 ## ✔️ Задание 1 <code>[ Адрессация + Имя устройства]</code>
 
 > [!WARNING]
-> В инструкции по сетевой настройке используется редактирование: <strong>`etc/network/interfaces`</strong>
+> В инструкции по сетевой настройке используется редактирование: <strong>` nano etc/network/interfaces`</strong>
 
 > [!NOTE]
 > **Используй редактор файлов: `nano`**
@@ -160,7 +160,7 @@ bash
 </details>
 
 <details>
-<summary><strong>Настройка адрессации в файле <code>etc/network/interfaces</code></strong></summary>
+<summary><strong>Настройка адрессации в файле <code>nano etc/network/interfaces</code></strong></summary>
 <br/>
 
 ### Настройка адресации (кроме HQ-CLI(он позже))
