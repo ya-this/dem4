@@ -1103,30 +1103,6 @@ systemctl enable isc-dhcp-server
 
 </br>
 
-Настройте автоматическое распределение IP-адресов на роутере HQ-R. 
-Первым шагом необходимо на машине HQ-R установить dhcp server командой 
-
-apt install isc-dhcp-server
-
-После установки пакета следующим шагом необходимо сконфигурировать файл для указания интерфейсов прослушивания DHCP сервера зайти можно с помощью команды
-
-nano /etc/default/isc-dhcp-server
-
-<img width="138" height="28" alt="image" src="https://github.com/user-attachments/assets/4c053dae-2ae6-4e13-a6c9-c3c7ae0f0493" />
-
-Далее необходимо настроить 2 конфигурационных файла для IPv4 для IPv6
-Которые можно найти по путям nano /etc/dhcp/dhcpd.conf и nano /etc/dhcp/dhcpd6.conf соответственно
-
-subnet 192.168.200.0 netmask 255.255.255.240 {
-  range 192.168.200.2 192.168.200.14;
-  option domain-name-servers 192.168.100.62;
-  option domain-name "au-team.irpo";
-  option routers 192.168.200.1;
-  default-lease-time 600;
-  max-lease-time 7200;
-}
-
-Перезапускаем службу DHCP: systemctl restart isc-dhcp-server
 
 ## ✔️ Задание 10 `[DNS]`
 
