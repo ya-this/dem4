@@ -440,6 +440,7 @@ iptables-save > /etc/iptables/rules.v4
 
 > Для того, чтобы сбросить настройку *nat*, можно использовать команду **`iptables -t nat -F`**
 
+команду **`iptables-save > /etc/iptables/rules.v4**
 #
 </details>
 
