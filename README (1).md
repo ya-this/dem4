@@ -777,11 +777,7 @@ echo gre_ip >> /etc/modules
 ```
 systemctl restart networking
 ```
-</details>
-<br/>
-<details>
-<br/>
-проверка 
+
 Ping 10.10.0.1 и ping 10.10.0.2 для проверки работоспособности туннеля с обеих сторон:
   
 ## ✔️ Задание 7 `[OSPF]`
