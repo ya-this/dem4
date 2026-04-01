@@ -753,7 +753,7 @@ systemctl restart networking
 
 <details>
 <summary><strong>Настройка GRE в файле <code>etc/network/interfaces</code> на <code>BR-RTR</code></strong></summary>
-<br/>
+
 Для настройки *GRE* туннеля на *BR-RTR* переходим в файл конфигурации
   
 ```
@@ -781,7 +781,7 @@ systemctl restart networking
 ```
 
 Ping 10.10.0.1 и ping 10.10.0.2 для проверки работоспособности туннеля с обеих сторон:
-<br/>
+
   
 ## ✔️ Задание 7 `[OSPF]`
 
