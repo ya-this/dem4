@@ -721,6 +721,8 @@ systemctl restart sshd
 <details>
 <summary><strong>Настройка GRE в файле <code>etc/network/interfaces</code>на <code>HQ-RTR</code></strong></summary>
 <br/>
+  
+<details>
 
 Для настройки _**`GRE`**_ туннеля на **`HQ-RTR`** переходим в файл конфигурации
 
@@ -779,6 +781,7 @@ systemctl restart networking
 ```
 
 Ping 10.10.0.1 и ping 10.10.0.2 для проверки работоспособности туннеля с обеих сторон:
+<br/>
   
 ## ✔️ Задание 7 `[OSPF]`
 
