@@ -421,6 +421,7 @@ iptables –t nat –A POSTROUTING –s 172.16.5.0/28 –o ens192 –j MASQUERAD
 netfilter-persistent save
 systemctl restart netfilter-persistent  
 ```
+команда `iptables-save > /etc/iptables/rules.v4
 </br>
 
 <details>
