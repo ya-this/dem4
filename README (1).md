@@ -780,6 +780,7 @@ systemctl restart networking
 </details>
 <br/>
 <details>
+<br/>
 проверка 
 Ping 10.10.0.1 и ping 10.10.0.2 для проверки работоспособности туннеля с обеих сторон:
   
@@ -1099,6 +1100,8 @@ systemctl enable isc-dhcp-server
 </br>
 
 </details>
+
+</br>
 
 Настройте автоматическое распределение IP-адресов на роутере HQ-R. 
 Первым шагом необходимо на машине HQ-R установить dhcp server командой 
