@@ -753,7 +753,8 @@ systemctl restart networking
 
 <details>
 <summary><strong>Настройка GRE в файле <code>etc/network/interfaces</code> на <code>BR-RTR</code></strong></summary>
-
+</details>
+</br>
 Для настройки *GRE* туннеля на *BR-RTR* переходим в файл конфигурации
   
 ```
